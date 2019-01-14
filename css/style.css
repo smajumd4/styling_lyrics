@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Black+Ops+One|Indie+Flower|Noto+Sans+KR|Rock+Salt');
+
+/* font-family: 'Indie Flower', cursive;
+font-family: 'Black Ops One', cursive;
+font-family: 'Noto Sans KR', sans-serif;
+font-family: 'Rock Salt', cursive; */
+
 /* ------
 global styles
 -------*/
@@ -9,13 +16,14 @@ html {
 }
 
 body {
-  background-image: linear-gradient(#fcec3a, black);
+  font-family: 'Noto Sans KR', sans-serif;
+  /* background-image: linear-gradient(#fcec3a, black); */
   margin: 0;
 }
 
 .content-wrap {
   max-width: 950px;
-  margin: 0;
+  margin: 0 auto;
   padding: 50px;
   overflow: hidden;
   padding-bottom: 25px;
@@ -62,8 +70,14 @@ body styles
 
 /* para one */
 
+header h1 {
+  font-family: 'Black Ops One', cursive;
+  font-size: 50px;
+}
+
 .para-one {
-  /* border: 5px solid black; */
+  font-family: 'Rock Salt', cursive;
+  font-size: 15px;
   /* position: relative; */
   height: 320px;
   display: grid;
@@ -104,17 +118,17 @@ body styles
 /* para two */
 
 .para-two {
-  background-color: white;
   margin: 0;
   padding: 10px;
 }
 
 .para-two p {
+  font-family: 'Indie Flower', cursive;
   font-size: 50px;
   overflow: auto;
   white-space: nowrap;
   overflow: hidden;
-  animation: typing 10s infinite;
+  animation: typing 15s infinite;
 }
 
 @keyframes typing {
@@ -170,11 +184,6 @@ body styles
 
 
 /* para three */
-.wrap-p3 {
-  background-color: white;
-  margin: 0;
-  padding: 10px;
-}
 .para-three {
   width: 80%;
   position: relative;
@@ -186,9 +195,10 @@ body styles
   justify-content: center;
   height: 60px;
   padding-left: 20px;
+  font-size: 15px;
   font-weight: bold;
   position: relative;
-  border: 2px solid black;
+  border: 1px solid black;
   top: 50%;
 }
 
