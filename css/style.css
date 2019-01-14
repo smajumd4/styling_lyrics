@@ -1,0 +1,164 @@
+/* ------
+global styles
+-------*/
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  /* background-image: linear-gradient(yellow, black); */
+  margin: 0;
+}
+
+.content-wrap {
+  max-width: 950px;
+  margin: 0 auto;
+  padding: 50px;
+  overflow: hidden;
+  padding-bottom: 25px;
+  /* background-color: white; */
+}
+
+ /* .col-left {
+  width: 50%;
+  float: left;
+}
+.col-right {
+  width: 50%;
+  float: left;
+  padding-left: 20px;
+} */
+
+/* ------
+header styles
+-------*/
+.bandito-image {
+  background-image: url("../images/header.jpg");
+  background-color: #cccccc;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.bandito-text {
+  text-align: center;
+  /* position: absolute; */
+  /* top: 50%;
+  left: 50%; */
+  /* transform: translate(-50%, -50%); */
+  color: white;
+}
+/* .header-img {
+  max-width: 950px;
+} */
+
+
+/* ------
+body styles
+-------*/
+
+/* para one */
+
+.para-one {
+  /* border: 5px solid black; */
+  /* position: relative; */
+  height: 320px;
+  display: grid;
+  grid-template-columns: 60% 40%;
+}
+
+.grid-item {
+  text-align: center;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+p.grid-item {
+  margin: 0;
+  background-color: #F8E107;
+}
+
+.high-rd {
+  background-image: url("../images/high-rd.jpg");
+  background-color: #cccccc;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.low {
+  background-image: url("../images/low.jpg");
+  background-color: #cccccc;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* para two */
+
+
+.para-two p {
+  font-size: 50px;
+  overflow: auto;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: typing 10s infinite;
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* para three */
+.blocks {
+  max-width: 950px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+.block1, .block2, .block3 {
+  height: 10px;
+  padding: 2px;
+  display: flex;
+  border: 2px solid white;
+  /* border: 2px solid black; */
+  margin: 0;
+}
+
+.block1 {
+  animation: block1 1.5s steps(1,end) infinite;
+}
+
+@keyframes block1 {
+  16.5% {background-color: black;}
+  49.5% {background-color: white;}
+  82.5% {background-color: black;}
+}
+
+.block2 {
+  animation: block2 1.5s steps(1,end) infinite;
+}
+
+@keyframes block2 {
+  16.5% {background-color: yellow;}
+  49.5% {background-color: white;}
+  82.5% {background-color: black;}
+}
+
+.block3 {
+  animation: block3 1.5s steps(1,end) infinite;
+}
+
+@keyframes block3 {
+  16.5% {background-color: white;}
+  49.5% {background-color: black;}
+  82.5% {background-color: black;}
+}
