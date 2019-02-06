@@ -29,15 +29,6 @@ body {
   padding-bottom: 25px;
 }
 
- /* .col-left {
-  width: 50%;
-  float: left;
-}
-.col-right {
-  width: 50%;
-  float: left;
-  padding-left: 20px;
-} */
 
 /* ------
 header styles
@@ -75,9 +66,10 @@ header h1 {
   font-size: 50px;
 }
 
+/* ########### LOW emphasised!!!!!!########*/
 .para-one {
   font-family: 'Rock Salt', cursive;
-  font-size: 15px;
+  font-size: 18px;
   /* position: relative; */
   height: 320px;
   display: grid;
@@ -211,18 +203,21 @@ header h1 {
 /* para four */
 
 .para-four {
-  background-image: url("../images/tyler-sad.jpg");
+  background: url("../images/tyler-sad.jpg") no-repeat;
+  background-size: cover;
   margin: 0;
   height: 391px;
-  font-size: 30px;
+  font-size: 20px;
   color: white;
 }
 .para-four p {
   margin-top: 0;
 }
 
+
+/* ########### make less redundant!!!!!!########*/
 .grid2 {
-  margin: 0px 0px;
+  margin: 50px 0px;
   border-top:10px solid white;
   border-bottom:10px solid white;
   background-color: white;
